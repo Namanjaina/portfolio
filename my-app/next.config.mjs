@@ -1,4 +1,7 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+// next.config.mjs
+const nextConfig = {
+  output: 'export',
+  trailingSlash: true,
+};
 
 export default nextConfig;
