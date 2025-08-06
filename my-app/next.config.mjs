@@ -1,6 +1,7 @@
 // next.config.mjs
 const nextConfig = {
-  output: 'export',
+//   output: 'export',
+    ignoreDuringBuilds: true,
   trailingSlash: true,
 };
 
